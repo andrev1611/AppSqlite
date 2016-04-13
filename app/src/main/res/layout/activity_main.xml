@@ -6,5 +6,50 @@
     android:orientation="vertical"
     tools:context="appsqlite.app.andrevera.com.appsqlite.MainActivity">
 
+    <EditText
+        android:id="@+id/etId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Código"/>
+    <EditText
+        android:id="@+id/etNombres"
+        android:hint="Nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/etTelefono"
+        android:hint="Teléfono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <Button
+           android:id="@+id/btnGuardar"
+           android:text="Guardar"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btnBuscar"
+           android:text="Buscar"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btnEditar"
+           android:text="Editar"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <Button
+           android:id="@+id/btnEliminar"
+           android:text="Eliminar"
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
 </LinearLayout>
